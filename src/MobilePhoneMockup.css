@@ -1,0 +1,52 @@
+.mobile-phone-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .mobile-phone {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    background-color: #000;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .mobile-screen {
+    height: 80%;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  /* Additional styling for content inside the screen */
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .image-container {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    overflow: auto; /* Add overflow property for overflow effect */
+  }
+  
+  img {
+    width: 110%; /* Increase width by 10% to overflow by 5% on each side */
+    height: 110%; /* Increase height by 10% to overflow by 5% on top and bottom */
+    object-fit: cover;
+    position: absolute; /* Position the image relative to its container */
+    top: 50%; /* Move the image 50% from the top */
+    left: 50%; /* Move the image 50% from the left */
+    transform: translate(-50%, -50%); /* Center the image using transform */
+  }
+  
+  
